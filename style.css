@@ -12,21 +12,18 @@ nav {
 }
 nav h1 {
   font-size: 38px;
-  font-style: normal;
   font-weight: 800;
 }
 .btn {
+  cursor: pointer;
   padding: 17px 24px;
   background-color: #fff;
   border-radius: 8px;
   border: 1px solid #0d1321;
-  color: #0d1321;
+  color: #0d1321bd;
   text-align: center;
-  font-family: "Azeret Mono";
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .hero-section {
   height: 652px;
@@ -47,22 +44,33 @@ nav h1 {
   text-align: center;
   color: #0d1321;
   text-align: center;
-  font-family: "Azeret Mono";
   font-size: 48px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 68px; /* 141.667% */
+  line-height: 68px;
   margin-bottom: 24px;
 }
-.hero-detail h3 {
-  width: 90%;
+/* applaied for all */
+h2 {
   color: #0d1321;
   text-align: center;
-  font-family: "Azeret Mono";
-  font-size: 16px;
-  font-style: normal;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+h3 {
+  color: #0d13219e;
+  text-align: center;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */ /* 162.5% */
+  line-height: 26px;
+  margin-bottom: 48px;
+}
+h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
 }
 .contact-btn {
   color: #fff;
@@ -74,4 +82,108 @@ nav h1 {
   background: #000000;
   opacity: 0.8;
   transition: 0.4s ease-in-out;
+}
+.why-section {
+  margin: 148px;
+  padding: 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.why-section h1 {
+  color: #0d1321;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.banners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  padding: 48px;
+  margin: 16px 0;
+  background-color: #fff;
+}
+.banner-detail {
+}
+.banner-detail p {
+  margin: 16px 0 32px;
+}
+
+.inspiration-section {
+  background: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+  margin: 140px;
+  padding: 32px;
+}
+.yt-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yt-video iframe {
+  padding: 32px;
+  border-radius: 18px;
+  border: 1px solid black;
+}
+.target-section {
+  margin: 140px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin: 0px 12px;
+  width: 365px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 16px;
+}
+.box h4 {
+  color: #000000;
+  margin-top: 30px;
+  font-weight: 800;
+}
+
+.box h3 {
+  text-align: start;
+  margin: 5px 0 24px;
+}
+.box a {
+  text-decoration: underline;
+  color: #0d1321;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card-html {
+  background: rgba(255, 76, 30, 0.05);
+}
+.card-css {
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-js {
+  background: rgba(255, 223, 0, 0.05);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  padding: 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.social-links a {
+  margin: 0px 7px;
+  cursor: pointer;
+  text-decoration: none;
 }
