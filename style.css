@@ -53,7 +53,7 @@ nav h1 {
 h2 {
   color: #0d1321;
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 800;
   margin-bottom: 24px;
 }
@@ -63,7 +63,6 @@ h3 {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  line-height: 26px;
   margin-bottom: 48px;
 }
 h4 {
@@ -133,7 +132,7 @@ h4 {
   border-radius: 18px;
   border: 1px solid black;
 }
-.target-section {
+.current-target-section {
   margin: 140px;
 }
 .card-container {
@@ -154,15 +153,20 @@ h4 {
   font-weight: 800;
 }
 
-.box h3 {
+.box h3,
+.next-box h3 {
   text-align: start;
   margin: 5px 0 24px;
 }
-.box a {
-  text-decoration: underline;
+.learn-more {
+  text-decoration: none;
   color: #0d1321;
   font-size: 18px;
   font-weight: 700;
+}
+.learn-more:hover {
+  text-decoration: underline;
+  color: #0d1321;
 }
 .card-html {
   background: rgba(255, 76, 30, 0.05);
@@ -173,6 +177,25 @@ h4 {
 .card-js {
   background: rgba(255, 223, 0, 0.05);
 }
+.next-target-section {
+}
+.next-box-container {
+  margin: 0px 140px;
+}
+.next-box {
+  margin: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background: rgba(13, 19, 33, 0.02);
+  border-radius: 18px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+}
+.next-box img {
+  margin-right: 24px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
