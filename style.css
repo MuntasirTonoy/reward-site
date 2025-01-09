@@ -200,8 +200,7 @@ h4 {
 .support-section {
   background-image: url(assets/handshake.jpg);
   background-size: cover;
-
-  margin: 50px auto;
+  margin: 100px auto;
   width: 1150px;
   padding: 64px 48px;
   border-radius: 18px;
